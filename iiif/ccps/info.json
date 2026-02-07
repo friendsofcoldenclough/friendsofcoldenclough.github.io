@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 73,
+    "height" : 72
+  }, {
+    "width" : 146,
+    "height" : 143
+  }, {
+    "width" : 291,
+    "height" : 285
+  }, {
+    "width" : 581,
+    "height" : 569
+  }, {
+    "width" : 1162,
+    "height" : 1137
+  }, {
+    "width" : 2324,
+    "height" : 2274
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 2324,
+  "@id" : "http://localhost:8887/iiif/ColdenCloughProtectedspecies designatedsites",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 2274
+}
