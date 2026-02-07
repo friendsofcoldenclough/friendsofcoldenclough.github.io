@@ -1,6 +1,6 @@
 theme: jekyll-theme-midnight
 title: Friends of Colden CLough
-tagline: A friendly community volunteer group carrying out nature restoration work in the ancient woodland of Colden Clough
-description: Meeting in Eaves Playground at 10am on the first Sunday of every month, we are a friendly community volunteer group carrying out nature restoration work, including woodland management and invasive species removal, in the ancient woodland of Colden Clough.
+description: A friendly community volunteer group carrying out nature restoration work in the ancient woodland of Colden Clough
+markdown: kramdown
 plugins:
 - jekyll-remote-theme
