@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+		<section class="page-content">
+			<header>
+			{% if page.featuredimage %}
+				<figure class="featuredimage">
+					<img src="{{ site.url }}{{ site.imgpath }}{{ page.featuredimage }}" alt="{{ page.title | escape_once }}">
+				</figure>
+			{% endif %}
+			{{ content }}
+			</header>
+			
+			<h2>Upcoming Events</h2>
+			{% assign curDate = site.time | date: '%s' %}
+			{% for post in site.posts reversed%}
+				{% assign postStartDate = post.date | date: '%s' %}
+				{% if postStartDate >= curDate %}
+					{% include post-list.html post=post %}
+				{% endif %}
+			{% endfor %}
+		</section>

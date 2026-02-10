@@ -1,0 +1,36 @@
+.home {
+    header {
+        figure.featuredimage {
+            margin: 0 0 1rem 1rem;
+            max-width: 50%;
+            float: right;
+        }
+        &:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    }
+}
+header {
+    figure.featuredimage {
+        margin: 0 0 1rem 0;
+        max-width: 100%;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+.snippet {
+    figure {
+        margin: 0 0 1rem 1rem;
+        max-width: 50%;
+        float:left;
+    }
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

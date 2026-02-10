@@ -1,0 +1,21 @@
+{
+  "name": "focc",
+  "version": "0.0.1",
+  "description": "Jekyll site for Friends of Colden Clough",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node _scripts/minify.js",
+    "convert": "node _scripts/convert.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bjorsq/focc.git"
+  },
+  "author": "Peter Edwards <pete@bjorsq.net>",
+  "license": "UNLICENSE",
+  "devDependencies": {
+    "fast-xml-parser": "^5.3.5",
+    "node-html-markdown": "^2.0.0"
+  }
+}
