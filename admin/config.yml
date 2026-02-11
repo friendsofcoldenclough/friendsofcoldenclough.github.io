@@ -1,6 +1,7 @@
 backend:
   name: github
-  repo: bjorsq/focc-auth
+  repo: friendsofcoldenclough/friendsofcoldenclough.github.io
+  branch: main
 media_folder: "assets/images"
 collections:
   - name: "focc-events" # Used in routes, e.g., /admin/collections/blog
