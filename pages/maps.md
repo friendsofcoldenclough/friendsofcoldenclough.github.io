@@ -1,6 +1,6 @@
 ---
 layout: maps
-permalink: /maps
+permalink: /maps/
 title: Map Group
 ---
 
