@@ -1,0 +1,39 @@
+backend:
+  name: github
+  repo: bjorsq/focc-auth
+media_folder: "assets/images"
+collections:
+  - name: "focc-events" # Used in routes, e.g., /admin/collections/blog
+    label: "Events" # Used in the UI
+    folder: "_posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "blog"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+      - label: "Featured Image"
+        name: "featuredimage"
+        widget: "image"
+      - label: "Snippet"
+        name: "includesnippet"
+        widget: "select"
+        options: 
+         - label: "Rhododendron Ponticum"
+           value: "rhododendron"
+         - label: "Beech"
+           value: "beech"
+         - label: "Tree felling diagram"
+           value: "felling"
+         - label: "Himalayan Balsam"
+           value: "balsam"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"

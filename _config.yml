@@ -37,8 +37,6 @@ permalink: /:categories/:title/
 highlight: pygments
 excerpt_separator: <!--more-->
 future: true
-paginate: 5
-paginate_path: "/page/:num/"
 
 # The language setting is used in /includes/header.html for html-settings
 language: "en"
