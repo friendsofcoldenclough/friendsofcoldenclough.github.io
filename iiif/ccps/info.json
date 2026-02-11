@@ -26,7 +26,7 @@
   } ],
   "profile" : "http://iiif.io/api/image/2/level0.json",
   "width" : 2324,
-  "@id" : "http://friendsofcoldenclough.org.uk/iiif/ccps",
+  "@id" : "https://friendsofcoldenclough.org.uk/iiif/ccps",
   "@context" : "http://iiif.io/api/image/2/context.json",
   "height" : 2274
 }
