@@ -26,7 +26,7 @@ function initMap() {
         maxZoom: 19,
 	    attribution: 'Tiles © Esri - Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
     });
-    focc.survey = L.tileLayer( 'https://allmaps.xyz/images/b9f1d1d448a2fccf/{z}/{x}/{y}@2x.png', {
+    focc.survey = L.tileLayer( 'https://allmaps.xyz/images/a51b7d4cdaadee59/{z}/{x}/{y}@2x.png', {
         maxZoom: 19,
 	    attribution: 'Tiles served by <a target="external" href="https://allmaps.org">Allmaps</a>'
     });
