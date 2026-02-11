@@ -48,10 +48,11 @@ function initMap() {
     };
     baseMaps = {
         "OpenStreetMap": focc.osm,
-        "Satellite": focc.esri_sat
+        "Satellite": focc.esri_sat,
+        "Survey": focc.survey
     };
     overlayMaps = {
-        "Survey": focc.survey
+        
     };
     var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(focc.map);
 
