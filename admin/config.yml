@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: friendsofcoldenclough/friendsofcoldenclough.github.io
   branch: main
 media_folder: "assets/images"
 collections:
