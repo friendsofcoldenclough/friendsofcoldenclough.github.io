@@ -26,6 +26,10 @@ title: Friends of Colden Clough
 description: A friendly community volunteer group carrying out nature restoration work in the ancient woodland of Colden Clough
 # This URL is the main address. Don't include a slash at the end.
 url: "https://friendsofcoldenclough.org.uk"
+host: localhost
+port: 4000
+# The baseurl is the subdirectory of your site, e.g. /blog or /
+baseurl: ""
 # admin email address
 admin_email: "info@friendsofcoldenclough.org.uk"
 # URL path to images directory

@@ -20,6 +20,15 @@
     --pagination-color-disabled: #ccc;
     --blockquote-border-colour: rgba(58, 170, 47, 0.1);
     --snippet-border-color: #1c7e10;
+    --stripe-bg: #e4e4e4;
+    --stripe-color: #000;
+    --stripe-bg-odd: #fff;
+    --stripe-color-odd: #111;
+    --th-bg: #808080;
+    --th-color: #fff;
+    --table-border: #1c7e10;
+    --border-radius: .35rem;
+
 }
 @media (prefers-color-scheme: dark) {
     :where(body) {
@@ -38,4 +47,11 @@
     --background-color: #222;
     --text-color: #fff;
     --link-colour: #a3ff91;
+    --stripe-bg: #222;
+    --stripe-color: #fff;
+    --stripe-bg-odd: #333;
+    --stripe-color-odd: #fff;
+    --th-bg: #111;
+    --th-color: #fff;
+    --table-border: #555;
 }

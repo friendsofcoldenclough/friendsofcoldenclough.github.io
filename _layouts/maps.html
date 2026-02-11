@@ -14,21 +14,6 @@ layout: default
 			</header>
 
 			{{ content }}
+
 		</section>
-<script type="importmap">
-    {
-        "imports": {
-            "leaflet": "https://unpkg.com/leaflet@2.0.0-alpha.1/dist/leaflet.js"
-        }
-    }
-</script>
-<script type="module">
-    import L, {Map, TileLayer, Marker, Circle, Polygon, Popup} from 'leaflet';
 
-    const map = new Map('map').setView([53.746079043360844, -2.02770599762106], 18);
-
-    const tiles = new TileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    }).addTo(map);
-</script>

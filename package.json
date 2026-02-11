@@ -7,7 +7,6 @@
     "compile": "node _scripts/minify.js",
     "convert": "node _scripts/convert.js"
   },
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/bjorsq/focc.git"
@@ -17,7 +16,10 @@
   "devDependencies": {
     "fast-xml-parser": "^5.3.5",
     "node-html-markdown": "^2.0.0",
+    "sass": "^1.97.3",
+    "uglify-js": "^3.19.3",
     "webpack": "^5.105.1",
-    "webpack-cli": "^6.0.1"
+    "webpack-cli": "^6.0.1",
+    "yaml": "^2.8.2"
   }
 }
