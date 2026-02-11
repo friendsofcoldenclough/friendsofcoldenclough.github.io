@@ -35,12 +35,13 @@
         --background-color: #222;
         --text-color: #fff;
         --link-colour: #a3ff91;
-        --hover-colour: #1c7e10;;
-        --top-bar-bg-colour: #333;
-        --top-bar-border: #1a1a1a;
-        --top-bar-text-colour: #fff;
-        --footer-bg-colour: #333;
-        --footer-text-colour: #fff;
+        --stripe-bg: #222;
+        --stripe-color: #fff;
+        --stripe-bg-odd: #333;
+        --stripe-color-odd: #fff;
+        --th-bg: #111;
+        --th-color: #fff;
+        --table-border: #555;
     }
 }
 :where(body.dark) {
