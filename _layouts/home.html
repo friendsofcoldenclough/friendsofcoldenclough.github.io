@@ -3,14 +3,16 @@ layout: default
 ---
 
 		<section class="page-content">
-			<header>
+			<article>
 			{% if page.featuredimage %}
 				<figure class="featuredimage">
 					<img src="{{ site.url }}{{ site.imgpath }}{{ page.featuredimage }}" alt="{{ page.title | escape_once }}">
 				</figure>
 			{% endif %}
-			{{ content }}
-			</header>
+			    <div class="featuredcontent">
+				{{ content }}
+				</div>
+		    </article>
 			
 			<h2>Upcoming Events</h2>
 			{% assign curDate = site.time | date: '%s' %}
