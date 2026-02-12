@@ -25,13 +25,33 @@ function initMap() {
         maxZoom: 19,
         attribution: '© <a target="external" href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo( focc.map );
-    focc.esri_sat = L.tileLayer( 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    focc.OpenTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+        maxZoom: 17,
+        attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+    });
+    focc.MtbMap = L.tileLayer('http://tile.mtbmap.cz/mtbmap_tiles/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &amp; USGS'
+    });
+    focc.Esri_WorldImagery = L.tileLayer( 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
         maxZoom: 19,
 	    attribution: 'Tiles © Esri - Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+    });
+    focc.Esri_WorldTopoMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
+    });
+    focc.Stadia_AlidadeSatellite = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_satellite/{z}/{x}/{y}{r}.{ext}', {
+        minZoom: 0,
+        maxZoom: 20,
+        attribution: '&copy; CNES, Distribution Airbus DS, © Airbus DS, © PlanetObserver (Contains Copernicus Data) | &copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        ext: 'jpg'
     });
     focc.survey = L.tileLayer( 'https://allmaps.xyz/images/a51b7d4cdaadee59/{z}/{x}/{y}@2x.png', {
         maxZoom: 19,
 	    attribution: 'Tiles served by <a target="external" href="https://allmaps.org">Allmaps</a>'
+    });
+    focc.jefferys = L.tileLayer( 'https://allmaps.xyz/images/e33822707c1a53da/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: 'Plate XII. The Environs of Bradford, Halifax, Harewood, (North of) Huddersfield Leeds, Otley, Skipton & (West of) Wakefield (<a href="https://www.davidrumsey.com/luna/servlet/s/r06az2">Thomas Jefferys, 1772</a>).'
     });
     focc.map.addControl( new L.Control.Fullscreen( { position: 'topright' } ) );
     focc.mapLoaded = true;
@@ -51,13 +71,17 @@ function initMap() {
     };
     baseMaps = {
         "OpenStreetMap": focc.osm,
-        "Satellite": focc.esri_sat,
-        "Survey": focc.survey
+        "OpenTopoMap": focc.OpenTopoMap,
+        "MtbMap": focc.MtbMap,
+        "Esri WorldImagery": focc.Esri_WorldImagery,
+        "Esri WorldTopoMap": focc.Esri_WorldTopoMap,
+        "Stadia Alidade Satellite": focc.Stadia_AlidadeSatellite
     };
     overlayMaps = {
-        
+        "Survey": focc.survey,
+        "Thomas Jefferys (1772)": focc.jefferys
     };
-    var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(focc.map);
+    var layerControl = L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(focc.map);
 
     document.dispatchEvent( new Event( 'maploaded' ) );
 }

@@ -20,7 +20,7 @@ fs.writeFileSync( compiled_js, UglifyJS.minify({
     "utilities.js": fs.readFileSync( path.resolve( __dirname, jsdir, 'utilities.js' ), "utf8" ),
     "leaflet.fullscreen.js": fs.readFileSync( path.resolve( __dirname, jsdir, 'leaflet.fullscreen.js' ), "utf8" ),
     "maps.js": fs.readFileSync( path.resolve( __dirname, jsdir, 'maps.js' ), "utf8" )
-}, { toplevel: true } ).code, "utf8" );
+}, { toplevel: true }).code, "utf8" );
 
 var integrity = {
     "script": "",
