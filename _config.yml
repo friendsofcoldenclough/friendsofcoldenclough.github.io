@@ -19,6 +19,7 @@
 #                        __/ |                  
 #                       |___/                   
 #
+remote_theme: friendsofcoldenclough/jekyll-theme-focc
 # Title of the website
 title: Friends of Colden Clough
 # The description is used on homepage and in the footer to quickly describe the website.
@@ -34,30 +35,13 @@ baseurl: ""
 admin_email: "info@friendsofcoldenclough.org.uk"
 # URL path to images directory
 imgpath: "/assets/images/"
-
-# Theme works best with Kramdown (using the table of contents function)
-markdown: kramdown
-permalink: /:categories/:title/
-highlight: pygments
-excerpt_separator: <!--more-->
 future: true
-
-# The language setting is used in /includes/header.html for html-settings
-language: "en"
-
-# SASS processing settings
-sass:
-    sass_dir: _scss
-    style: compressed
 
 # SEO shit
 # google_author:             ""
 # google_site_verification:  ""
 # bing_webmastertools_id:    ""
 # alexa_verify_id:           ""
-
-# Social Media bollocks
-facebook: "https://www.facebook.com/groups/3797294470486573/"
 
 # Include/exclude files from production _site
 exclude:

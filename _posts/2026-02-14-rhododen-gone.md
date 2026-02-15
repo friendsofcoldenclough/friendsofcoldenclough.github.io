@@ -3,6 +3,7 @@ layout: post
 title:  "14th February 2026 - Rhododen-gone!"
 featuredimage: "brian-taylor-rhododendron-flowers-unsplash-2.jpg"
 includesnippet: "rhododendron"
+section: events
 tags: 
  - rhodedendron
  - invasive species

@@ -2,6 +2,7 @@
 layout: post
 title:  "6th September 2025 - Moth Breakfast"
 featuredimage: "moth-breakfast.jpg"
+section: events
 ---
 
 Andrew Cockcroft of Halifax Scientific Society came to look at the moth population of the clough with us.

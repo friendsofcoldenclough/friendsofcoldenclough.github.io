@@ -2,6 +2,7 @@
 layout: post
 title:  "1st March 2026 - Moss Breakfast"
 featuredimage: "moss.jpg"
+section: events
 ---
 
 Join us on a gentle walk with local ecologist and bryologist Johnny Turner to explore the incredible diversity of mosses and liverworts of this special place.
