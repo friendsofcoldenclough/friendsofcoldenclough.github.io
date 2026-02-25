@@ -14,5 +14,5 @@ jobs:
         run: | 
           cd main
           git config --global user.name 'bjorsq'
-          git config --global user.email 'pete@bjors.net'
+          git config --global user.email 'pete@bjorsq.net'
           git commit --allow-empty -am "[bot] daily build to ensure events listings are kept up to date" && git push
