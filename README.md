@@ -1,3 +1,3 @@
-# Freinds of Colden Clough
+# Freinds of Colden Clough GitHub organisation pages
 
 
