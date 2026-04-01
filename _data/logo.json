@@ -1,0 +1,22 @@
+[
+    {
+        "filename": "fofcc.png",
+        "name": "Logo - acorns / leaves only (PNG)",
+        "description": "The acorns and leaves only version of the logo, without the text. PNG format with transparent background, suitable for use as an icon or in contexts where the full logo is not needed."
+    },
+    {
+        "filename": "fofcc.svg",
+        "name": "Logo - acorns / leaves only (SVG)",
+        "description": "The acorns and leaves only version of the logo, without the text. SVG format, suitable for use as an icon or in contexts where the full logo is not needed."
+    },
+    {
+        "filename": "fofcc-round.png",
+        "name": "Logo - round logo with text and acorns / leaves (PNG)",
+        "description": "The full version of the logo, including the acorns, leaves, and text. PNG format with transparent background, suitable for use in contexts requiring full branding."
+    },
+    {
+        "filename": "fofcc-round.svg",
+        "name": "Logo - round logo with text and acorns / leaves (SVG) ",
+        "description": "The full version of the logo, including the acorns, leaves, and text. SVG format, suitable for use in contexts requiring full branding."
+    }
+]
