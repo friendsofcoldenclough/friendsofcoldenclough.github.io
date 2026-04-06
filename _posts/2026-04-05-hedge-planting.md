@@ -15,7 +15,7 @@ Come get involved, learn new skills, and make a real difference in your local en
 
 ## Report from the day
 
-The weather was mixed, with sunshine and hailstones, but the team of ten volunteers made short work of the balckthorn, hawthorn and maple saplings we were done by 11.30am!
+The weather was mixed, with sunshine and hailstones, but the team of ten volunteers made short work of the balckthorn, hawthorn, dog rose and hazel saplings - we were done by 11.30am! The saplings were generaously provided for the group free of charge by [Rooting4Change](https://www.facebook.com/p/Rooting4Change-61581874627496/), a non-profit environmental conservation organisation which runs a community tree nursery and specialises in providing resources to aid natural flood management in the Calder valley.
 
 {% include content/image.html image="hedge-planting1.jpg" alt="The team starting the work day at Eaves playground" caption="The team starting the work day at Eaves playground" %}
 
