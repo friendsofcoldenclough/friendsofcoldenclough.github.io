@@ -8,7 +8,9 @@ section: events
 **Past, Present & Future of the Clough Woodlands**
 
 Join us for a special guided walk exploring the rich story of the Clough woodlands, where nature and history meet.
+
 <!--more-->
+
 Together we’ll: 
 
 * read the landscape
