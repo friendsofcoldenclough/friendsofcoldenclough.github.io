@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "5th July 2026 - Heritage Detectives"
-featuredimage: "os-one-inch-old-series.jpg"
+featuredimage: "os-one-inch-old-series.png"
 section: events
 ---
 
