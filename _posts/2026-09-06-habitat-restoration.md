@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "7th June 2026 - Habitat Restoration"
+title:  "9th September 2026 - Habitat Restoration"
 featuredimage: "moss-walk13.jpg"
 section: events
 ---
@@ -9,7 +9,7 @@ Join us for a session near Hell Hole rocks where we'll be helping to restore the
 
 <!--more-->
 
-Together we’ll: 
+Together we’ll:
 
 * clear any invasive species (primarily himalayan balsam, beech and rhodedendron)
 * use some of the cleared material to start dead hedges to enclose the space

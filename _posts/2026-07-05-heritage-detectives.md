@@ -10,7 +10,7 @@ Join us for a special guided walk exploring the rich story of the Clough, where 
 
 <!--more-->
 
-Together we’ll: 
+Together we’ll:
 
 * point out the area’s industrial past through hidden remnants/features
 * reflect on how the area has changed and what its future could be
