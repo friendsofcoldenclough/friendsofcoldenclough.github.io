@@ -6,7 +6,7 @@ includesnippet: "balsam"
 section: events
 ---
 
-Our June event is a **balsam bash** - clearing invasive Himalayan balsam from the clough.
+Our August event is a **balsam bash** - clearing invasive Himalayan balsam from the clough.
 
 This year we are concentrating on the upper reaches of the clough to try to stop it spreading down the slopes to the valley bottom, and down the clough using Colden Water.
 
