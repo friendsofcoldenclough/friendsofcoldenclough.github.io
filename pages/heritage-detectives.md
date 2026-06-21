@@ -7,7 +7,6 @@ section: projects
 
 {% include content/image.html image='os-one-inch-old-series.png' alt='Ordnance Survey map of Colden Clough from the OS One-inch "Old Series" (1801-1869)' caption='Ordnance Survey map of Colden Clough from the OS One-inch "Old Series" (1801-1869)<br><a href="https://maps.nls.uk/view/257403556" target="nls">Sheet LXXXVIII NW Huddersfield</a> - Reproduced with the permission of the National Library of Scotland' %}
 
-
 ## Workshops
 
 The workshops will explore the relationship between the history and ecology of Colden Clough and Lumb Bank – looking at how farming, woodland management, quarrying, water management, industry and conservation have all helped shape the landscape and biodiversity we see today.
