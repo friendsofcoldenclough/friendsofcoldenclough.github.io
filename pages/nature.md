@@ -15,3 +15,7 @@ Colden Clough is a nature-rich valley located near Heptonstall, above Hebden Bri
 * **Industrial history:** Colden Clough has a history of industrial activity, with remnants of mills and other structures.
 * **Access and recreation:** The clough offers various walking trails and routes, making it a popular spot for outdoor recreation.
 * **Local nature reserve:** It is designated as a local nature reserve, emphasising its importance for wildlife and biodiversity.
+
+## Protected and Invasive Species map
+
+<iframe src="https://friendsofcoldenclough.org.uk/maps/species/embed/" width="100%" height="500px" style="border:none"></iframe>
