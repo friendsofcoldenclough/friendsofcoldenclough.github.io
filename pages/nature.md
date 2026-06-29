@@ -18,4 +18,6 @@ Colden Clough is a nature-rich valley located near Heptonstall, above Hebden Bri
 
 ## Protected and Invasive Species map
 
-<iframe src="https://friendsofcoldenclough.org.uk/maps/species/embed/" width="100%" height="500px" style="border:none"></iframe>
+Prepared by the West Yorkshire Ecology Service.
+
+<iframe src="https://friendsofcoldenclough.org.uk/maps/species/embed/" width="100%" height="600px" style="border:none"></iframe>
